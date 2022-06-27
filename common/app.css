@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.full-bg{
+    height: 575px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/resumes-on-the-desk.jpg);
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+}
+.dark-bg{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.post{
+    width: 30%;
+    border-radius: 7px;
+    background-color: #2C2C2C;
+}
+
+.linePost{
+    border-bottom: 2px dashed white;
+    width: 75%;
+    margin: 5px 0;
+}
+
+.icon{
+    width: 24px;
+    aspect-ratio: 1;
+}
+
+#postForm{
+    z-index: 3;
+    width: 300px;
+    background-color: #2C2C2C;
+    border-radius: 7px;
+    position: fixed;
+    left: 500px;
+    top: 150px;
+}
+
+#compRegForm{
+    order: 2;
+    margin-top: 3%;
+}
+
+.mainComReg{
+    width: 90%;
+    height: 550px;
+    left: 5%;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputReg{
+    background-color: black;
+}
+
+.text{
+    width: 30%;
+    align-self: start;
+    order: 3;
+}
+
+.meuf{
+    align-self: end;
+    order: 1;
+}
+
+.subsBtn{
+    background-color: black;
+}
+.btnHomeComReg{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+.btnHomeComReg:hover{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.compReg{
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  position: relative;
+  width: 96%;
+  height: 70px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #ffffff;
+}
+
+.navbar button {
+  margin: 0;
+
+  margin-left: 60%;
+  position: relative;
+
+  width: 190px;
+  height: 40px;
+  /*Box*/
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 35px;
+  cursor: pointer;
+  /*Color*/
+  background-color: white;
+}
+
+.navbar button a {
+  text-decoration: none;
+  color: #000000;
+  height: 100%;
+  width: 190px;
+  margin: auto;
+}
+
+.navbar button:hover {
+  background-color: #000000;
+}
+
+.navbar button a:hover {
+  /* background-color: black; */
+  color: white;
+}
+
+.navbar span {
+  /*Position*/
+  position: relative;
+  width: 95px;
+  height: 48px;
+  margin-left: 61px;
+
+  /*Center element vertically*/
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 173px;
+  height: 43px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.jombotron {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 209px;
+  /*Center horizontally*/
+  width: 813px;
+  margin: auto;
+  /*-------------------*/
+  margin-top: 17px;
+}
+
+.jombotron h1 {
+  position: relative;
+  height: 209px;
+  /*Center horizontally*/
+  width: 813px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 117px;
+  text-align: center;
+  color: #000000;
+  padding: 0;
+}
+
+.jomb-span {
+  color: #ffffff;
+  padding: 0;
+}
+
+.black-rect {
+  position: absolute;
+  height: 53px;
+  width: 306px;
+  left: 371px;
+  top: 40px;
+
+  background: #000000;
+}
+
+.jombotron p {
+  position: relative;
+  height: 209px;
+
+  /*Center horizontally*/
+  width: 813px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.login-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.illustration {
+  position: relative;
+  /*Center horizontally*/
+  width: 583.23px;
+  height: 493.58px;
+  margin: auto;
+  /*-------------------*/
+  height: 493.58px;
+}
+
+.login {
+  /*Center horizontally*/
+  width: auto;
+  margin: auto;
+  /*-------------------*/
+}
+
+.sr-only,
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  width: 180px;
+  color: white;
+  background: #000000;
+  border-radius: 7px;
+  float: right;
+  margin: 0;
+  margin-left: 93px;
+  box-shadow: 3px 3px 3px gray;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  color: tomato;
+}
+
+input,
+.input-group-text {
+  box-shadow: 3px 3px 3px gray;
+}
+
+/*--------------------------------------------------------------*/
+.home-h1 {
+  position: relative;
+  width: 1022px;
+  height: 202px;
+  /*Center horizontally*/
+  margin: auto;
+  /*-------------------*/
+
+  /*Center element vertically*/
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+#cahier {
+  position: absolute;
+  width: 520px;
+  height: 550px;
+  left: -87px;
+  top: 133px;
+}
+
+#carte {
+  position: absolute;
+  width: 248px;
+  height: 174px;
+  left: 1126px;
+  top: 153px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 70px;
+}
+
+.con-btn {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 337px;
+  height: 67px;
+
+  /*Center horizontally*/
+  margin: auto;
+  /*-------------------*/
+  background: #000000;
+  border: 1px solid #d3d3d3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+.inscr-btn {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 337px;
+  height: 67px;
+  /*Center horizontally*/
+  margin: auto;
+  /*-------------------*/
+  border: 2px solid #d3d3d3;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px gray;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.inscr-btn:hover,
+.con-btn:hover {
+  color: tomato;
+}
+
+/*--------------------------------*/
+.svg-404 {
+  position: absolute;
+  width: 690px;
+  height: 626px;
+  left: 375px;
+
+  background: #000000;
+}
+
+.p-404 {
+  position: absolute;
+  width: 1022px;
+  height: 202px;
+  left: 216px;
+  top: 400px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.offre-title {
+  position: relative;
+  width: 200px;
+  height: 47px;
+  margin: auto;
+  margin-bottom: 100px;
+  top: 80px;
+  margin-bottom: 130px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 28px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+
+  color: #ffffff;
+}
+
+.card {
+  background-color: #000000e7;
+  width: 30%;
+  padding-inline: 20px;
+  margin-right: 5%;
+  border-radius: 15px;
+}
+
+.card h2 {
+  width: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.card p {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+.card-line {
+  position: relative;
+  height: 1px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.card-form {
+  position: relative;
+  width: 100%;
+  height: 387px;
+  margin: 0px;
+  background: #000000e7;
+}
+
+.ajout-offre {
+  position: relative;
+  width: 347px;
+  height: 49px;
+  margin: auto;
+  top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 49px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: tomato;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-link1 {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-link1:hover {
+  text-decoration: none;
+  color: tomato;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card-form2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.div-form1 {
+  width: 33%;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.div-form1 input {
+  border: solid 1px #ffffff;
+  background-color: #000000e7;
+}
+
+.card-form2 label {
+  color: white;
+}
+
+.div-cont1 {
+  width: 100%;
+}
+
+.div-form1 {
+  width: 70%;
+}
+
+.div-cont2 {
+  width: 100%;
+}
+
+.glob-cont {
+  display: flex;
+  flex-direction: row;
+}
+#ajout-btn {
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  border: none;
+  width: 182px;
+  height: 42px;
+  margin-left: 13%;
+  font-weight: bold;
+}
+
+
